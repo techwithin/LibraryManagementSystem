@@ -1,0 +1,25 @@
+,acc_no,bookname,authorname,authorsmark,copy_no,user_id,publisher_name,date_of_pub,date_of_acc,source,bill_no,date_of_bill,M:M,cd
+0,14220,"Compilers - Principles, Techniques and Tools","Alfred V. Aho, Ravi Sethi, Jeffrey D. Ullman",AHO,1,101E,Pearson Education,01/10/2014,01/12/2014,Donation,1EFG11201,01/10/2014,549,no
+20,14241,An Integrated Approoach to Software Engineering,Pankaj Jalote,JAL,1,110F,Narosa,01/11/2014,01/01/2015,Buy,1EFR1230F,01/11/2014,250,no
+34,14255,The C Programming Language,Bjarne Stroustrup,BAS,1,101E,Pearson Education,02/04/2015,03/05/2015,Buy,1ER14220F,01/05/2015,1050,no
+48,14269,Python The Complete Reference,Martin C. Brown,MAR,1,111D,Mc Graw Hill,03/07/2015,10/08/2015,Buy,1FC12452L,08/08/2015,700,no
+68,14289,Computer Graphics,Hearn and Baker,HEB,1,113R,Prentice Hall,06/01/2016,09/02/2016,Buy,1VC64593B,07/02/2016,1500,no
+88,14309,Computer System Architecture,M. Morris Mano,MAN,1,121A,Prentice Hall,11/01/2016,        15/02/2016,Buy,1HV45839M,13/02/2016,600,no
+103,14324,Basic Electrical Engineering,B L Theraja,BLT,1,131B,S Chand Publishing,12/02/2016,21/03/2016,Donation,1HG68536N,18/03/2016,560,no
+118,14339,Engineering Mathematics,Das Pal,DAP,1,130A,Dhur & Sons,18/03/2016,25/04/2016,Buy,1GK38909M,21/04/2016,1000,no
+148,14369,Discrete Mathematics and it's Application,Rozen,ROZ,1,121N,Tata McGraw Hill,28/04/2016,10/06/2016,Buy,1RG90349K,08/06/2016,650,no
+173,14394,Data Structures with C,Seymour Lipschutz,LIP,1,117A, McGraw Hill,05/06/2016,15/07/2016,Donation,1KH78509B,13/07/2016,1000,no
+183,14404,Computer Organization,Hamacher Vranesic Zaky,HVZ,1,122P, McGraw Hill,18/06/2016,25/07/2016,Buy,1ED90898S,22/07/2016,650,no
+198,14419,The Design of Everyday Things,Don Norman,DON,1,134C,Basic Books,21/06/2016,26/07/2016,Donation,1EFDGG21,03/07/2016,459,no
+213,14434,The Fault In Our Stars,John Green,JON,1,144C,Pengin Books,02/06/2008,29/08/2016,Buy,1EFFG1241,31/08/2016,570,no
+228,14449,The White Tiger,Arvind Adiga,ARV,1,182C,Penguin Books,02/06/2009,3/12/2016,Buy,1FGR45ACV,5/12/2016,480,no
+243,14464,IT happens only in India,Arvind Bajaj,BAJ,1,122C,Rupa Books,10/10/2012,03/01/2017,Donation,1ERTGG45A,04/01/2017,370,no
+258,14479,Me Before You,Jojo Moyes,JOM,1,132B,Penguin Books,05/01/2012,04/02/2017,Donation,1EVB12344R,08/02/2017,350,no
+278,14499,Fundamentals of Database Systems,R. Elmasri and S. Navathe,NAV,1,142S,McGraw Hill,02/07/2008,05/03/2017,Buy,1FWC13455S,08/03/2017,420,no
+298,14519,The Invisible Man,H G Wells,HGW,1,122C,Ratna Sagar ,02/02/2009,12/05/2017,Donation,1WERTFFA1,15/05/2017,250,no
+329,14550,Robin Hood,Howard Pyle,HOW,1,131L,Scribner's,05/03/2010,23/06/2017,Buy,1AERT7894K,27/06/2017,390,no
+349,14570,Uncle Tom's Cabin,Harriet Beecher Stowe,HBS,1,151P,John P. Jewett and Company,20/03/2008,10/07/2017,Donation,1AERT4789U,03/07/2017,470,no
+369,14590,Alice in Wonderland,Lewis Carrol,LEW,1,171J,Macmillian,26/11/2005,22/07/2017,Buy,1AERT12351F,26/07/2017,320,no
+389,14610,Twenty Thousand Leagues Under the Sea,Jules Verne,VER,1,191S,Pierre-Jules Hetzel,01/01/2000,01/08/2017,Donation,1DER1234L,06/08/2017,270,no
+409,14630,Around the World in Eighty Days,Jules Verne,VER,1,201T,Pierre-Jules Hetzel,05/05/2005,20/09/2017,Buy,1ART2237M,30/09/2017,310,no
+429,14650,Rip Van Winkle,Washington Irving,IRV,1,211D,Macmillan,11/02/2013,29/11/2017,Donation,1ERT2896B,04/12/2017,270,no
