@@ -1,4 +1,7 @@
 {
-    "python.autoComplete.extraPaths": ["./LibraryManagementSystem"],
+    "python.autoComplete.extraPaths": [
+        "./LibraryManagementSystem"
+    ],
+    "python.pythonPath": "C:\\Users\\GITANSHU\\.conda\\envs\\env\\python.exe",
 
 }

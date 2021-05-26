@@ -34,18 +34,25 @@
   padding: 0.7rem 0 0.7rem 3rem ;
   width: 55rem;
   border-radius: 5rem 0 0 5rem;
+  box-shadow: 4px 8px 5px 0px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 4px 8px 5px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 4px 8px 5px 0px rgba(0,0,0,0.2);
 }
 
 .search-results button{
   border: none;
   outline: none;
-  background-color: rgba(44, 98, 211, 0.87);
-  color: rgb(255, 255, 255, 0.87);
+  background-color: rgba(44, 98, 211, 0.97);
+  color: rgb(255, 255, 255, 0.97);
   font-size: 1.8rem;
   font-family: Roboto;
   font-weight: 500;
-  padding: 0.7rem 2rem;
+  padding: 0.7rem 1.5rem;
+  margin: 0 0 0 -0.3rem;
   border-radius: 0 5rem 5rem 0;
+  box-shadow: 4px 8px 5px 0px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 4px 8px 5px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 4px 8px 5px 0px rgba(0,0,0,0.2);
 } 
 
 .search-results button:hover{
@@ -82,21 +89,35 @@
     height: 100vh;
 }
 
-@media only screen and (max-width: 719px) {
+  @media only screen and (max-width: 719px) {
     html {
       display: none;
+    }
+  }
+
+  @media only screen and (min-width: 720px)
+  {
+    html {
+      font-size: 40% !important;
+    }
+  }
+
+  @media only screen and (min-width: 840px)
+  {
+    html {
+      font-size: 45% !important;
     }
   }
   
   @media only screen and (min-width: 960px) {
     html {
-      font-size: 50% !important;
+      font-size: 55% !important;
     }
   }
 
   @media only screen and (min-width: 1140px) {
     html {
-      font-size: 50% !important;
+      font-size: 55% !important;
     }
   }
   
