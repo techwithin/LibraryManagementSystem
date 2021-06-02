@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block extracss %}
+
+  <link rel="stylesheet" href="{% static 'css/login.css' %}" type="text/css">
+
+{% endblock %}
+
+
+{% block restcontainer %}
+
+<div class="row mb-lg-5 mt-lg-4 d-lg-block d-none">
+</div>
+
+<div class="row">
+
+  <div class="col-lg-5 col-12 offset-lg-1">
+
+    <!--For mobile to align center horizontally-->
+    <div class="col-12 mt-5 d-flex justify-content-center d-md-none">
+      <img src="{% static 'assets/logo.png' %}" class="logosize">
+    </div>
+    
+    <!--For desktop to align center vertically-->
+    <div class="col-lg-8 mt-lg-5 pt-lg-5 mt-lg-3 d-lg-flex align-items-lg-center d-none">
+      <img src="{% static 'assets/logo.png' %}" class="logosize">
+    </div>
+
+    <div class="col-lg-12 mt-lg-3 d-lg-flex d-none align-items-lg-center justify-content-md-center">
+      <h2>St. Thomas College Of Engineering and Technology</h2>
+    </div>
+    
+    
+  </div>
+
+  <div class="col-lg-6 col-11 mx-auto">
+  <form method="POST" class="card mt-5 p-3 pt-4 p-lg-4 col-lg-7 col-md-6 col-sm-10 col-12 mx-auto">
+
+    {% csrf_token %}
+    <h4 class="mb-5 mt-2 ml-2">Welcome,</h4>
+
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="ml-2 form-label h6">Username</label>
+      <input type="text" placeholder="Enter Your Username" class="form-control" id="username" aria-describedby="usernamehelp" name="username">
+    </div>
+
+    <div class="mb-4">
+    <label for="exampleInputPassword1" class="ml-2 form-label h6">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Your Password" name="password">
+    </div>
+
+    <div class="mb-3">
+    <button type="submit" class="btn btn-primary float-right">Submit</button>
+    </div>
+
+    <div class="mb-1 align-self-center pt-2">
+    <p class="h6">Don't have an account ?<span><a href="{% url 'register' %}" class="ml-2">Sign Up</a></span></p>
+    </div>
+
+    <div class="mt-1">
+      {% for message in messages %}
+        <p id="messages">{{message}}</p>
+      {% endfor %}
+    </div>
+
+  </form>
+  </div>
+  
+</div>
+
+
+{% endblock %}

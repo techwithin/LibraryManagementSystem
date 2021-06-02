@@ -1,0 +1,37 @@
+.container {
+  color: rgba(27, 34, 45, 0.87);
+  max-width: 1366px; }
+
+.card {
+  border: none;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px; }
+
+.form-control {
+  border: none;
+  border-radius: .5rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; }
+
+.btn {
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  border-radius: .5rem; }
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto; }
+
+@media (max-width: 768px) {
+  .logosize {
+    width: 35%;
+    height: auto;
+    margin: auto; } }
+@media (min-width: 1225px) {
+  .logosize {
+    width: 45%;
+    height: auto; } }
+@media (min-width: 2560px) {
+  .logosize {
+    width: 35%;
+    height: auto; } }
+
+/*# sourceMappingURL=base.css.map */

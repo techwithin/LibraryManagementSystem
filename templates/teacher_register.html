@@ -1,0 +1,97 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block extracss %}
+
+  <link rel="stylesheet" href="{% static 'css/register.css' %}" type="text/css">
+
+{% endblock %}
+
+
+{% block restcontainer %}
+
+    <div class="row">
+
+        <div class="apply-header col-md-12">
+            <p>REGISTRATION FORM TEACHER</p>
+        </div>
+
+					<form method="POST" class="col-md-8 offset-md-2 col-10 offset-1 applyform">
+						{% csrf_token %}
+
+						{{ profile_form.misID.errors }}
+
+						<div>
+							<p>{{form.username.label}}</p>
+							{{form.username}}
+						</div>
+						<div>
+							<p>{{form.email.label}}</p>
+							{{form.email}}
+						</div>
+						<div>
+							<p>{{form.first_name.label}}</p>
+							{{form.first_name}}
+						</div>
+						<div>
+							<p>{{form.last_name.label}}</p>
+							{{form.last_name}}
+						</div>
+
+						<div>
+							<p>{{form.password1.label}}</p>
+							{{form.password1}}
+						</div>
+						<div>
+							<p>{{form.password2.label}}</p>
+							{{form.password2}}
+						</div>
+						<div>
+							<p>{{profile_form.phone_number.label}}</p>
+							{{profile_form.phone_number}}
+						</div>
+						<div>
+							<p>{{profile_form.address.label}}</p>
+							{{profile_form.address}}
+						</div>
+						<div>
+						    <p>{{profile_form.joining.label}}</p>
+							{{profile_form.joining}}
+						</div>
+
+				   		<div class="justify-content-center login_container">
+				 			<input type="submit" value="Register Account">
+				   		</div>
+
+                        <div class="col-md-12" style="padding-left: 0;">
+                            <p>Already have an account?<span>  <a href="{% url 'login' %}" class="ml-2">Login</a></span></p>
+                        </div>
+
+                        <div class="col-md-12" style="padding-left: 0;">
+                        {{form.errors}}
+                        {% comment %} for form errors  {% endcomment %}
+                        </div>
+
+					</form>
+
+       </div>
+
+
+  <script src="{% static 'js/scheme.js' %}"></script>
+  <script>
+
+    var form_fields = document.getElementsByTagName('input')
+    form_fields[1].placeholder='Username';
+    form_fields[2].placeholder='Email';
+    form_fields[3].placeholder='FIRST NAME';
+    form_fields[4].placeholder='LAST NAME'
+    form_fields[5].placeholder='Enter Password';
+    form_fields[6].placeholder='Confirm Password';
+    form_fields[7].placeholder='Phone Number';
+    form_fields[8].placeholder='Address';
+    form_fields[9].placeholder='Unique ID in your ID Card';
+
+</script>
+
+{% endblock %}
