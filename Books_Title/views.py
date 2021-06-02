@@ -28,7 +28,7 @@ def BookSearch(request):
     if request.method == "POST":
         form = SearchField(request.POST)
         if form.is_valid():
-            # populating()
+            #populating()
             # print("Populated")
             query = form.cleaned_data.get('searchinput')
             start = Title()
@@ -155,6 +155,7 @@ def student(request):
 @allowed_users(allowed_roles=['teacher'])
 def teacher(request):
     return render(request, 'teacher.html')
+    #teacher page
 
 
 

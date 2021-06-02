@@ -51,8 +51,8 @@ class TeacherProfile(models.Model):
 class ID(models.Model):
    unique_id = models.CharField(max_length = 8)
    email = models.EmailField()
-   
- 
+
+
 
 
 
