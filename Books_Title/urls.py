@@ -11,4 +11,5 @@ urlpatterns = [
     path('register/', views.register, name="register"),
     path('teacher_register/', views.teacher_register, name="teacher_register"),
     path('index/',views.index,name="index")
+#path('index/',views.index,name="index")
 ]
