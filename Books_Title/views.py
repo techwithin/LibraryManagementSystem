@@ -1,5 +1,10 @@
 from django.contrib.postgres.search import *
 from django.contrib.postgres.operations import  *
+from django.core.mail import send_mail
+from django.conf import settings
+from django.template.loader import render_to_string
+from django.core.mail import EmailMessage
+
 from .models import *
 from .forms import *
 from .populatedata import *
@@ -156,6 +161,28 @@ def student(request):
 def teacher(request):
     return render(request, 'teacher.html')
     #teacher page
+
+
+def index(request):
+
+    to=["roshanindian111@gmail.com","jha.roshan53863@gmail.com"]
+    html_template="index.html"
+    sub="test"
+    html_message=render_to_string(html_template,{'index':'Roshan'})
+    message=EmailMessage(sub,html_message,settings.EMAIL_HOST_USER,["roshanindian111@gmail.com","jha.roshan53863@gmail.com"])
+
+    message.content_subtype='html'
+    message.send()
+    # send_mail(
+    #     'Test',
+    #     'Just a test',
+    #     settings.EMAIL_HOST_USER,
+    #     ['roshanindian111@gmail.com'],
+    #     fail_silently=False,
+    #
+    #
+    # )
+    return render(request,'index.html')
 
 
 
